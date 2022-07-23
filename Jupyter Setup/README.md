@@ -2,13 +2,20 @@
 While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
 
 ### Windows
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/windows/ "Installing Anaconda on Windows") (Read the instructions carefully)  
-Open command prompt (Press Windows button and type ‘cmd’)  
-Enter the following command to run  
+Follow the youtube video: [Installing miniconda on Windows](https://www.youtube.com/watch?v=-H_onyfW9VE)
+
+Open command prompt (Press Windows button and type ‘cmd’) (opening powershell is also fine)
+
+Type `conda install jupyter numpy scipy matplotlib pandas` into the window and hit enter.
+
+This should install some more required packages, type `y` whenever the terminal tells you to. 
+
+At this point you have installed everything that you need.
+
+Enter the following command to start a notebook, and you can start playing around.
 ```bash  
 jupyter notebook  
 ```  
-(or you can directly launch in Anaconda Navigator)  
 
 ### MacOS
 Our first step is to download the installer
