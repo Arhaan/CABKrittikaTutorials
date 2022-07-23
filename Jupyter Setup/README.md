@@ -1,7 +1,20 @@
 ## Jupyter Setup
 While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
 
-### Windows
+<details>
+  <summary>Unsure whether you had installed all this before?</summary>
+  
+  You can run `jupyter notebook` in your terminal (or command prompt on Windows). If this opens a browser window then you probably have the required software. In the browser window, try making a new ipython notebook and in there add the following code
+```python
+  import numpy as np
+  import pandas as pd
+  import matplotlib
+```
+</details>
+
+<details>
+<summary>Windows</summary>
+  
 Follow the youtube video: [Installing MiniConda on Windows](https://www.youtube.com/watch?v=-H_onyfW9VE)
 
 The video mentions this, but repeating since this is very important, remember to check the "Add MiniConda3 to my PATH environment variable" box (if some warning is shown regarding this, ignore it).  
@@ -18,8 +31,11 @@ Enter the following command to start a notebook, and you can start playing aroun
 ```bash  
 jupyter notebook  
 ```  
+</details>
 
-### MacOS
+<details>
+<summary>MacOS</summary>
+  
 Our first step is to download the installer
 
 Use the following links depending on your mac
@@ -42,9 +58,11 @@ This should install some more required packages, type `y` whenever the terminal 
 Celebrate, since now you can start your journey of doing astronomy with python.
 
 In the terminal type `jupyter notebook` and that should start a jupyter notebook, a tool that you’ll learn to live in the coming few days.
-
-
-### Linux distribution (includes Ubuntu)
+</details>
+  
+<details>
+<summary>Linux distribution (includes Ubuntu)</summary>
+  
 #### Installing Jupyter - Using Conda or Miniconda
 Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/linux/ "Installing Anaconda on Linux") (Read the instructions carefully)  
 Open terminal (Press CTRL + ALT + T)  
@@ -75,3 +93,4 @@ pip3 install bs4 requests jupyter scipy astropy matplotlib;
 ```bash  
 jupyter notebook;  
 ```  
+</details>
