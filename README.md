@@ -100,6 +100,7 @@ pip3 install bs4 requests jupyter scipy astropy matplotlib;
 jupyter notebook;  
 ```  
 </details>
+
 ***
 
 ## [How to use Jupyter notebooks](./How%20to%20use%20Jupyter%20Notebooks#using-jupyter-notebooks )
