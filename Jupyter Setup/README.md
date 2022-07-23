@@ -2,14 +2,15 @@
 While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
 
 <details>
-  <summary>Unsure whether you had installed all this before?</summary>
+  <summary>Think you might have installed all this before?</summary>
   
-  You can run `jupyter notebook` in your terminal (or command prompt on Windows). If this opens a browser window then you probably have the required software. In the browser window, try making a new ipython notebook and in there add the following code
+  You can run `jupyter notebook` in your terminal (or command prompt on Windows). If this opens a browser window then you probably have the required software. In the browser window, try making a new ipython notebook and in there add the following code:
 ```python
   import numpy as np
   import pandas as pd
   import matplotlib
 ```
+and see if it runs. If it does then you are good to go for these tutorials. You might still want to do a conda installation if you are not very sure about how you installed the packages, because in the projects we might need to install a few more packages (by packages we mean numpy, pandas etc.).
 </details>
 
 <details>
