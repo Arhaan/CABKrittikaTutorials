@@ -4,6 +4,8 @@ While Jupyter runs code in many programming languages, Python is a requirement (
 ### Windows
 Follow the youtube video: [Installing MiniConda on Windows](https://www.youtube.com/watch?v=-H_onyfW9VE)
 
+The video mentions this, but repeating since this is very important, remember to check the "Add MiniConda3 to my PATH environment variable" box (if some warning is shown regarding this, ignore it).  
+
 Open command prompt (Press Windows button and type ‘cmd’) (opening powershell is also fine)
 
 Type `conda install jupyter numpy scipy matplotlib pandas` into the window and hit enter.
