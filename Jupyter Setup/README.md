@@ -11,11 +11,29 @@ jupyter notebook
 (or you can directly launch in Anaconda Navigator)  
 
 ### MacOS
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/mac-os/ "Installing Anaconda on MacOS") (Read the instructions carefully)  
-Open terminal and enter the following command to run  
-```bash  
-jupyter notebook  
-```  
+Our first step is to download the installer
+
+Use the following links depending on your mac
+
+- M1 : [Miniconda3 macOS Apple M1 64-bit pkg](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)
+- Intel: [Miniconda3 macOS Intel x86 64-bit pkg](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg)
+
+The download of the installer should be quick, it’s < 100 mb in size
+
+Once the download finishes, click on the installer to open it. Keep following the onscreen instructions to download miniconda.
+
+Once the installation is finished, open a terminal (if you already had one open, close it and reopen the terminal)
+
+You might see the word `(base)` written on the left or the right end of your line, that is fine.
+
+Type `conda install jupyter numpy scipy matplotlib pandas` into the terminal and hit enter.
+
+This should install some more required packages, type `y` whenever the terminal tells you to.
+
+Celebrate, since now you can start your journey of doing astronomy with python.
+
+In the terminal type `jupyter notebook` and that should start a jupyter notebook, a tool that you’ll learn to live in the coming few days.
+
 
 ### Linux distribution (includes Ubuntu)
 #### Installing Jupyter - Using Conda or Miniconda
