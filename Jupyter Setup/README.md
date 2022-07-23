@@ -2,7 +2,7 @@
 While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
 
 ### Windows
-Follow the youtube video: [Installing miniconda on Windows](https://www.youtube.com/watch?v=-H_onyfW9VE)
+Follow the youtube video: [Installing MiniConda on Windows](https://www.youtube.com/watch?v=-H_onyfW9VE)
 
 Open command prompt (Press Windows button and type ‘cmd’) (opening powershell is also fine)
 
